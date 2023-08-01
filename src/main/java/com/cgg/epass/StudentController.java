@@ -55,7 +55,6 @@ public class StudentController {
 	@GetMapping("/student-delete/{id}")
 	public String deleteStaff(@PathVariable("id") Integer id) {
 		 
-		 
 		return "redirect:/";
 	}
 }
